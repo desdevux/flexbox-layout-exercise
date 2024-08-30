@@ -1,0 +1,220 @@
+html,
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.navigation-container {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.img-item {
+    margin: 10px;
+}
+
+#logo {
+    height: 50px;
+    opacity: 0.5;
+}
+
+.nav-links {
+    margin: 10px;
+}
+
+.nav-link-txt {
+    padding: 0px 20px;
+    color: white;
+}
+
+/* Styles the image container */
+.image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 100%;
+}
+
+/* Background image styling */
+.background-image {
+    position: absolute;
+    top: 69px;
+    width: 1200px;
+    height: 700px;
+    object-fit: cover; /* Ensures the image covers the container */
+    z-index: -1; /* Keeps the image behind the headings */
+}
+
+/* Centers the headings inside the image container */
+.heading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+/* Styles the centered headings */
+.centered-heading {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+}
+
+/*Centers the Tea of the Month-section*/
+.totm-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*Styles the Tea of the Month-container for texts*/
+.totm-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+/*Styles the container for the cards*/
+.totm-image-card-container {
+    display: flex;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+/*Styles the card*/
+.totm-container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+/*Styles the card image*/
+#totm-img {
+    width: 300px;
+    height: 200px;
+}
+
+/*Styles the card text*/
+.totm-txt {
+    text-align: center;
+}
+
+/*Styles the locations wrapper*/
+.loc-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.loc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative; /* Makes loc a positioned container */
+}
+
+#loc-img {
+    z-index: 0;
+    position: absolute; /* Positioned absolutely to allow layering the cards on top*/
+}
+
+.loc-heading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute; /* Makes the heading container a positioned container */
+    top: -60%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 12; 
+}
+
+.loc-centered-heading {
+    padding: 15px;
+    margin: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+
+.loc-container { /*Container for both*/
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    z-index: 10;
+    position: relative;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.loc-card {
+    background-color: black;
+    color: white; /* Make text readable against the black background */
+    width: 300px;
+    z-index: 11;
+    position: relative; /* Use relative positioning to avoid stacking issues */
+    padding: 20px;
+    text-align: center;
+}
+
+#h3-loc-unbolded {
+    font-weight: 400;
+}
+
+
+.contact-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-txts {
+    text-align: center;
+    height: 200px;
+    margin-top: 0px;
+}
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.footer-txt {
+    margin: 20px;
+    text-align: left;
+}
