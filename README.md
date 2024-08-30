@@ -1,16 +1,16 @@
-# Tea Cosy Flexbox Layout Exercise
+# Tea Cozy Flexbox Layout Exercise
 
 ## Overview
 
-This repository contains my solution to the Codecademy Tea Cosy project. The goal of this exercise was to practice building responsive web layouts using Flexbox on-spec.
+This repository contains my solution to the Codecademy Tea Cozy project. The goal of this exercise was to practice building responsive web layouts using Flexbox on-spec.
 
-![Tea Cosy Preview](Tea/rsc/images/Tea%20Cosy.gif)
+![Tea Cozy Preview](Tea/rsc/images/Tea%20Cosy.gif)
 
 **Disclaimer:** This project is for viewing purposes only. Codecademy owns the copyright to the original exercise, and this repository is not intended for commercial use or redistribution.
 
 ## Project Details
 
-- **Project Name**: Tea Cosy
+- **Project Name**: Tea Cozy
 - **Objective**: To practice and apply Flexbox for building responsive layouts.
 - **Source**: Codecademy
 - **Technologies Used**:
